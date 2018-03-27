@@ -17,4 +17,8 @@ public class TestController {
 
         return new ModelAndView("index");
     }
+    @RequestMapping("/test2")
+    public String test2(){
+        return "test!!";
+    }
 }
